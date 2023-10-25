@@ -11,7 +11,7 @@ fizzBuzz(120); //FizzBuzz
 fizzBuzz(9999); //Fizz
 */
 
-// Q1
+// Q1 Solution
 
 function fizzBuzz(num) {
   if (num % 3 === 0 && num % 5 === 0) {
@@ -34,7 +34,7 @@ fizzBuzz(9999);
 //let result = averager(prices);
 //console.log(result);
 
-// Q2
+// Q2 Solution
 
 const prices = [12.99, 17.75, 88.12, 111.11, 77.09, 53.45];
 let sum = 0;
@@ -60,6 +60,8 @@ celToKel(173.13);
 celToKel(-13);
 */
 
+// Q3 Solution
+
 function celToFah(cel) {
   let fah = (cel * 9) / 5 + 32;
   return fah.toFixed(2);
@@ -82,3 +84,12 @@ pow(2, 3) -> 2 * 2 * 2 -> 8
 
 Note: You can not use Math.pow function. You need to write your own implementation of the function.
 */
+
+// Q4 Solution
+
+function pow(a, b) {
+    let powValue = a ** b;
+    return powValue;
+  }
+  
+  console.log(pow(2, 3));
