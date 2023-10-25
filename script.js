@@ -88,8 +88,8 @@ Note: You can not use Math.pow function. You need to write your own implementati
 // Q4 Solution
 
 function pow(a, b) {
-    let powValue = a ** b;
-    return powValue;
-  }
-  
-  console.log(pow(2, 3));
+  let powValue = a ** b;
+  return powValue;
+}
+
+console.log(pow(2, 3));
